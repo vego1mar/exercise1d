@@ -1,0 +1,62 @@
+Aurelius@AURELIUS-COMP MINGW64 ~
+$ cd /y/Projekty/WDSR/
+
+Aurelius@AURELIUS-COMP MINGW64 /y/Projekty/WDSR
+$ git clone https://github.com/leinadb/exercise1d.git
+Cloning into 'exercise1d'...
+remote: Counting objects: 55, done.
+remote: Total 55 (delta 0), reused 0 (delta 0), pack-reused 55
+Unpacking objects: 100% (55/55), done.
+Checking connectivity... done.
+
+Aurelius@AURELIUS-COMP MINGW64 /y/Projekty/WDSR
+$ cd exercise1d/
+
+Aurelius@AURELIUS-COMP MINGW64 /y/Projekty/WDSR/exercise1d (master)
+$ ./gradlew clean
+:calculator:clean UP-TO-DATE
+:conversions:clean UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 13.866 secs
+
+Aurelius@AURELIUS-COMP MINGW64 /y/Projekty/WDSR/exercise1d (master)
+$ ./gradlew build
+:conversions:compileJava
+:conversions:processResources UP-TO-DATE
+:conversions:classes
+:conversions:jar
+:calculator:compileJava
+:calculator:processResources UP-TO-DATE
+:calculator:classes
+:calculator:jar
+:calculator:startScripts
+:calculator:distTar
+:calculator:distZip
+:calculator:assemble
+:calculator:compileTestJava
+Download https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom
+Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+Download https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar
+Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+:calculator:processTestResources UP-TO-DATE
+:calculator:testClasses
+:calculator:test
+:calculator:check
+:calculator:build
+:conversions:assemble
+:conversions:compileTestJava UP-TO-DATE
+:conversions:processTestResources UP-TO-DATE
+:conversions:testClasses UP-TO-DATE
+:conversions:test UP-TO-DATE
+:conversions:check UP-TO-DATE
+:conversions:build
+
+BUILD SUCCESSFUL
+
+Total time: 35.08 secs
+
+Aurelius@AURELIUS-COMP MINGW64 /y/Projekty/WDSR/exercise1d (master)
+$

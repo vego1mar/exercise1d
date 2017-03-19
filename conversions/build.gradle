@@ -1,0 +1,6 @@
+apply plugin: 'application'
+mainClassName = "wdsr.exercise1.conversions.ArrayConverter"
+
+dependencies {
+	testCompile group: 'junit', name: 'junit', version: '4.12'
+	}
